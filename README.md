@@ -1,26 +1,26 @@
 # Foyo
-A fine tune object detection model using Falcon Duality AI synthetic data
+#### A fine tune object detection model using Falcon Duality AI synthetic data
 
 This repository contains a custom YOLOv11s object detection model fine-tuned to detect 7 safety-related objects:
 OxygenTank, NitrogenTank, FirstAidBox, FireAlarm, SafetySwitchPanel, EmergencyPhone, FireExtinguisher
 
 The following sections describe how to train and evaluate the model step by step.
 
-🚀 Model Training Process
+## 🚀 Model Training Process
 
-Environment Setup
+### Environment Setup
 
-Use Google Colab with GPU support for efficient YOLO fine-tuning.
+- Use Google Colab with GPU support for efficient YOLO fine-tuning.
 
-Dataset Preparation
+### Dataset Preparation
 
-Upload the training dataset ZIP folder to Google Drive.
+- Upload the training dataset ZIP folder to Google Drive.
 
-Extract the dataset in Colab.
+- Extract the dataset in Colab.
 
-Create a YAML configuration file specifying paths for train, validation, and test datasets and class names.
+- Create a YAML configuration file specifying paths for train, validation,      and test datasets and class names.
 
-YOLOv11s Model Setup
+### YOLOv11s Model Setup
 
 Use the pre-trained YOLOv11s model as a starting point for fine-tuning.
 
