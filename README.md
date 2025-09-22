@@ -22,50 +22,50 @@ The following sections describe how to train and evaluate the model step by step
 
 ### YOLOv11s Model Setup
 
-Use the pre-trained YOLOv11s model as a starting point for fine-tuning.
+- Use the pre-trained YOLOv11s model as a starting point for fine-tuning.
 
-Training Parameters
+### Training Parameters
 
-Set epochs, batch size, patience, learning rate, and optimizer in your training script.
+- Set epochs, batch size, patience, learning rate, and optimizer in your       training script.
 
-Apply data augmentation techniques (flip, scale, mosaic, blur, etc.) to improve performance.
+- Apply data augmentation techniques (flip, scale, mosaic, blur, etc.) to      improve performance.
 
-Start Training
+### Start Training
 
-Run your training script (model training) in Colab.
+- Run your training script (model training) in Colab.
 
-Monitor the training progress and visualizations for loss and accuracy.
+- Monitor the training progress and visualizations for loss and accuracy.
 
-Save the Model
+### Save the Model
 
-Save the trained weights and run logs to Google Drive for evaluation and deployment.
+- Save the trained weights and run logs to Google Drive for evaluation and     deployment.
 
-📊 Model Evaluation Process
+## 📊 Model Evaluation Process
 
-Evaluation Environment
+### Evaluation Environment
 
-Use local Jupyter Notebook or any Python environment for evaluation.
+- Use local Jupyter Notebook or any Python environment for evaluation.
 
-GPU is not required for inference.
+- GPU is not required for inference.
 
-Load Trained Model
+### Load Trained Model
 
-Load the saved YOLOv11s model weights from Google Drive.
+- Load the saved YOLOv11s model weights from Google Drive.
 
-Prepare Test Dataset
+### Prepare Test Dataset
 
-Ensure the test dataset path and class info are correctly specified in the YAML file.
+- Ensure the test dataset path and class info are correctly specified in the    YAML file.
 
-Run Evaluation
+### Run Evaluation
 
-Execute the evaluation script to compute predictions and performance metrics.
+- Execute the evaluation script to compute predictions and performance         metrics.
 
-Inspect outputs such as predicted images, logs, and confusion matrix for analysis.
+- Inspect outputs such as predicted images, logs, and confusion matrix for     analysis.
 
-💡 Notes for Users
+## 💡 Notes for Users
 
-All scripts and configuration files are included in the repository.
+- All scripts and configuration files are included in the repository.
 
-Following this guide, anyone can reproduce the training and evaluation results easily.
+- Following this guide, anyone can reproduce the training and evaluation       results easily.
 
-Always adjust paths in the YAML file according to your environment before running scripts.
+- Always adjust paths in the YAML file according to your environment before    running scripts.
